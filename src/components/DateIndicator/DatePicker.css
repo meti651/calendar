@@ -1,0 +1,33 @@
+.cl-date-picker_container {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+.cl-date-picker_container input {
+  box-sizing: border-box;
+  outline: 0;
+  position: relative;
+  width: 100%;
+}
+
+.cl-date-picker_container input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+
+.cl-date-picker_date-picker-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+}
