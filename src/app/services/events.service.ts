@@ -1,6 +1,7 @@
 import data from "../../resource.json";
+import { Event } from "../models/Event";
 
-const getEvents: () => Promise<Object> = () =>
+const getEvents: () => Promise<Event | Object> = () =>
   new Promise((resolve) => {
     setTimeout(() => {
       console.log(data);
